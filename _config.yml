@@ -1,0 +1,14 @@
+title: Inventures
+email: inventures@mymicroinvest.com
+description: >
+  Inventures is the first European crowd-venturing impact fund,
+  a venture capital firm based in Brussels, Belgium, investing
+  in early stage impact businesses.
+baseurl: ''
+url: 'https://www.inventures.fund'
+twitter_username: inventuresfund
+
+gems:
+exclude:
+  - Gemfile
+  - Gemfile.lock
