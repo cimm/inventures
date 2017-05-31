@@ -9,6 +9,7 @@ baseurl: ''
 url: 'https://www.inventures.fund'
 phone: '+32 2 318 47 12'
 twitter: '@inventuresfund'
+permalink: pretty
 
 gems:
 exclude:
