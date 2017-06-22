@@ -17,15 +17,29 @@
     </li>
   </ul>
 
-  <address class='mb1'>
-    Inventures SA
+  <address class='mb1' id='organization' itemscope itemtype='http://schema.org/FinancialService'>
+    <a href='{{ site.url }}' itemprop='url'>
+      <span itemprop='name'>Inventures SA</span>
+    </a>
     &mdash;
-    Place Sainte-Gudule 5, 1000 Brussels, Belgium
+    <span itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
+      <span itemprop='streetAddress'>Place Sainte-Gudule 5</span>,
+      <span itemprop='postalCode'>1000</span>
+      <span itemprop='addressLocality'>Brussels</span>,
+      <span itemprop='addressCountry'>Belgium</span>
+    </span>
     &mdash;
-    <a href='tel:{{ site.phone }}'>{{ site.phone }}</a>
+    <a href='tel:{{ site.phone }}'>
+      <span itemprop='telephone'>{{ site.phone }}</span>
+    </a>
     &mdash;
-    BE 0836.671.025
+    <a href='mailto:{{ site.email }}'>
+      <span itemprop='email'>{{ site.email }}</span>
+    </a>
+    &mdash;
+    <span itemprop='taxID'>BE 0836.671.025</span>
   </address>
 
   <p><a href='/disclaimer/'>Legal disclaimer</a></p>
 </footer>
+
