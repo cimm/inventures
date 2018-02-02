@@ -2,7 +2,7 @@
 
 The fourth incarnation of the Inventures website.
 
-The Inventures website is a responsive static website hosted on Github Pages and lives at http://inventures.fund. It has some general information about the Inventures I and II funds and links to MyMicroInvest for all dynamic stuff.
+The Inventures website is a responsive static website hosted on Github Pages and lives at http://inventures.fund. It has some general information about the Inventures I and II funds.
 
 ## Limitations
 
