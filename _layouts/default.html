@@ -2,6 +2,9 @@
 <html lang='en'>
   {% include head.html %}
   <body>
+    {% if page.title == "Inventures" %}
+      {% include banner.html %}
+    {% endif %}
     {% include nav.html %}
     {{ content }}
     {% include footer.html %}
